@@ -38,6 +38,24 @@ namespace LegoExercise
 
     class LegoWyldstyle
     {
+        protected string _head;
+        public string Head
+        { get { return _head; } set { _head = value; } }
 
+        protected string _body;
+        public string Body
+        { get { return _body; } set { _body = value; } }
+
+        protected string _accessories;
+        public string Accessories
+        { get { return _accessories; } set { _accessories = value; } }
+
+        public string WyldstyleIsAMasterBuilder(bool isAMasterBuilder)
+        {
+            if (isAMasterBuilder == true)
+                return "Wyldstyle is an amazing master builder";
+            else
+                return "Wyldstyle appears to have run out of things to build";
+        }
     }
 }
