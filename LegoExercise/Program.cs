@@ -35,4 +35,9 @@ namespace LegoExercise
                 return "Lego Batman used something from his utility belt to outsmart you";
         }
     }
+
+    class LegoWyldstyle
+    {
+
+    }
 }
