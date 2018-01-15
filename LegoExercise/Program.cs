@@ -10,6 +10,29 @@ namespace LegoExercise
     {
         static void Main(string[] args)
         {
+
+        }
+    }
+
+    class LegoBatman
+    {
+        public string Head;
+        public string Body;
+        public string Accessories;
+
+        public LegoBatman(string batHelmet, string kevlarVest, string utilityBelt)
+        {
+            Head = batHelmet;
+            Body = kevlarVest;
+            Accessories = utilityBelt;
+        }
+
+        public string LegoBatmansSignatureAttack(bool handToHandCombat)
+        {
+            if (handToHandCombat == true)
+                return "Lego Batman defeated you with his hand-to-hand combat skills";
+            else
+                return "Lego Batman used something from his utility belt to outsmart you";
         }
     }
 }
